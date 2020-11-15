@@ -453,6 +453,7 @@ AM_CONDITIONAL(OSMIO4K, test `echo "$BOXTYPE" | cut -b 1-7` == "osmio4k")
 AM_CONDITIONAL(OSMINI4K, test `echo "$BOXTYPE" | cut -b 1-8` == "osmini4k")
 AM_CONDITIONAL(PROTEK9900LX, test "$BOXTYPE" == 9900lx)
 AM_CONDITIONAL(PROTEK4KX1, test "$BOXTYPE" == protek4kx1)
+AM_CONDITIONAL(PROTEK4KX2, test "$BOXTYPE" == protek4kx2)
 AM_CONDITIONAL(PUREHD, test "$BOXTYPE" == purehd)
 AM_CONDITIONAL(PUREHDSE, test "$BOXTYPE" == purehdse)
 AM_CONDITIONAL(SF98, test "$BOXTYPE" == sf98)
@@ -486,6 +487,7 @@ AM_CONDITIONAL(ULTRABOX, test "$BOXTYPE" == ultrabox)
 AM_CONDITIONAL(ULTRAV8PLUS, test "$BOXTYPE" == ultrav8plus)
 AM_CONDITIONAL(ANADOLMULTI, test "$BOXTYPE" == anadolmulti)
 AM_CONDITIONAL(MAXYTEMULTI, test "$BOXTYPE" == maxytecmulti)
+AM_CONDITIONAL(MAXYTEMULTIPLUS, test "$BOXTYPE" == maxytecmultiplus)
 AM_CONDITIONAL(USTYM4KPRO, test "$BOXTYPE" == ustym4kpro)
 AM_CONDITIONAL(VS1000, test "$MACHINE_BUILD" == vs1000)
 AM_CONDITIONAL(VS1500, test "$MACHINE_BUILD" == vs1500)
@@ -497,6 +499,7 @@ AM_CONDITIONAL(VUDUO, test "$BOXTYPE" == vuduo)
 AM_CONDITIONAL(VUSOLO2, test "$BOXTYPE" == vusolo2)
 AM_CONDITIONAL(VUDUO2, test "$BOXTYPE" == vuduo2)
 AM_CONDITIONAL(VUDUO4K, test "$BOXTYPE" == vuduo4k)
+AM_CONDITIONAL(VUDUO4KSE, test "$BOXTYPE" == vuduo4kse)
 AM_CONDITIONAL(VUZERO, test "$BOXTYPE" == vuzero)
 AM_CONDITIONAL(VUZERO4K, test "$BOXTYPE" == vuzero4k)
 AM_CONDITIONAL(VUSOLO4K, test "$BOXTYPE" == vusolo4k)
@@ -575,6 +578,7 @@ BoxBranding/remotes/gb0/Makefile
 BoxBranding/remotes/gb1/Makefile
 BoxBranding/remotes/gb2/Makefile
 BoxBranding/remotes/gb3/Makefile
+BoxBranding/remotes/gb4/Makefile
 BoxBranding/remotes/gi1/Makefile
 BoxBranding/remotes/hd1100/Makefile
 BoxBranding/remotes/hd530c/Makefile

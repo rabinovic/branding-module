@@ -64,6 +64,10 @@ if PROTEK4KX1
 SUBDIRS += protek3
 endif
 
+if PROTEK4KX2
+SUBDIRS += protek3
+endif
+
 if S7300
 SUBDIRS += ax1
 endif
@@ -237,7 +241,7 @@ SUBDIRS += et7x00mini
 endif
 
 if GIGABLUE
-SUBDIRS += gb0 gb1 gb2 gb3
+SUBDIRS += gb0 gb1 gb2 gb3 gb4
 endif
 
 if IQON
@@ -504,6 +508,10 @@ if VUDUO4K
 SUBDIRS += vu4
 endif
 
+if VUDUO4KSE
+SUBDIRS += vu4
+endif
+
 if VUULTIMO4K
 SUBDIRS += vu
 endif
@@ -601,6 +609,10 @@ SUBDIRS += anadol2
 endif
 
 if MAXYTEMULTI
+SUBDIRS += maxytec1
+endif
+
+if MAXYTEMULTIPLUS
 SUBDIRS += maxytec1
 endif
 
