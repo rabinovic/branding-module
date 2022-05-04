@@ -150,12 +150,12 @@ class RcModel:
 			"gb800solo": "gb0",
 			"gb800ue": "gb0",
 			"gb800ueplus": "gb0",
-			"gbip4k": "gb3",
+			"gbip4k": "gb4",
 			"gbipbox": "gb0",
 			"gbquad": "gb0",
 			"gbquad4k": "gb3",
 			"gbquadplus": "gb1",
-			"gbtrio4k": "gb3",
+			"gbtrio4k": "gb4",
 			"gbue4k": "gb4",
 			"gbultrase": "gb0",
 			"gbultraue": "gb0",
@@ -466,7 +466,6 @@ class RcModel:
 			boxType = "BrandOEM_fulan"
 		elif getMachineBuild().startswith("ebox"):
 			boxType = "MachineBuild_ebox"
-		boxType = self.machineBrands.get(getMachineBrand(), boxType)
 		boxType = self.machineBuilds.get(getMachineBuild(), boxType)
 		return self.boxTypes.get(boxType, "dmm0")
 
